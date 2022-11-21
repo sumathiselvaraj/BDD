@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-21T10:25:59 MST" name="Default suite" finished-at="2022-11-21T10:26:19 MST" duration-ms="19317">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestNGTestRunner@17f62e33]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-11-21T10:25:59 MST" name="Default test" finished-at="2022-11-21T10:26:19 MST" duration-ms="19317">
+      <class name="testRunner.TestNGTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.TestNGTestRunner@17f62e33]" started-at="2022-11-21T10:25:59 MST" name="setUpClass" finished-at="2022-11-21T10:26:00 MST" duration-ms="373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5fef0c19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestNGTestRunner@17f62e33]" started-at="2022-11-21T10:26:00 MST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-21T10:26:11 MST" duration-ms="11192" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User verify product in landing page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verifying and Selecting Product"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at stepDefinitions.LandingStepDef.user_search_the_product_from_and_rownumber(LandingStepDef.java:43)
+at ✽.User search the product from "product" and rownumber "0"(file:///C:/Users/nsuma/OneDrive/Desktop/NEWCLONE/CucumberBDD/src/test/java/Feature/Shopping.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.TestNGTestRunner@17f62e33]" started-at="2022-11-21T10:26:11 MST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-21T10:26:19 MST" duration-ms="7702" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User verify product in landing page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verifying and Selecting Product"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at stepDefinitions.LandingStepDef.user_search_the_product_from_and_rownumber(LandingStepDef.java:43)
+at ✽.User search the product from "product" and rownumber "1"(file:///C:/Users/nsuma/OneDrive/Desktop/NEWCLONE/CucumberBDD/src/test/java/Feature/Shopping.feature:7)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.TestNGTestRunner@17f62e33]" started-at="2022-11-21T10:26:19 MST" name="tearDownClass" finished-at="2022-11-21T10:26:19 MST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunner.TestNGTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
